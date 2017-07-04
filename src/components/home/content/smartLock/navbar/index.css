@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff; }
+  .navbar .navbar-content {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; }
+    .navbar .navbar-content ul {
+      display: inline-block;
+      margin-top: 5px; }
+      .navbar .navbar-content ul li {
+        text-decoration: none;
+        padding: 0 80px;
+        float: left;
+        cursor: pointer;
+        display: block;
+        font-size: 13px; }
+        .navbar .navbar-content ul li :hover {
+          color: #00a0e9; }
+          .navbar .navbar-content ul li :hover .smartLock-icon {
+            background: url("../../../../../images/icon/smartLockActive.png") no-repeat top center;
+            background-size: 100%; }
+          .navbar .navbar-content ul li :hover .blueToothLock-icon {
+            background: url("../../../../../images/icon/blueLockActive.png") no-repeat top center;
+            background-size: 100%; }
+        .navbar .navbar-content ul li .lock-icon {
+          height: 40px;
+          width: 25px;
+          display: block;
+          margin: 0 auto 9px; }
+        .navbar .navbar-content ul li .smartLock-icon {
+          background: url("../../../../../images/icon/smartLock.png") no-repeat top center;
+          background-size: 100%; }
+        .navbar .navbar-content ul li .blueToothLock-icon {
+          background: url("../../../../../images/icon/blueToothLock.png") no-repeat top center;
+          background-size: 100%; }
+        .navbar .navbar-content ul li span {
+          font-size: 18px; }
+
+.navbar ul li .active {
+  color: #00a0e9; }
+  .navbar ul li .active .smartLock-icon {
+    background: url("../../../../../images/icon/smartLockActive.png") no-repeat top center;
+    background-size: 100%; }
+  .navbar ul li .active .blueToothLock-icon {
+    background: url("../../../../../images/icon/blueLockActive.png") no-repeat top center;
+    background-size: 100%; }
+.navbar ul li a {
+  text-decoration: none;
+  color: #000; }
+
+/*# sourceMappingURL=index.css.map */

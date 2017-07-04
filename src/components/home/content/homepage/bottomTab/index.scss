@@ -1,0 +1,38 @@
+.bottom_tab {
+  width: 1200px;
+  margin: 0 auto;
+  .tablist {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    li {
+      float: left;
+      margin: 2% 1.5% 0;
+      width: 30%;
+      height: 229px;
+      .item {
+        position: relative;
+        height: 100%;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .bottom-caption {
+        background: rgba(0, 0, 0, 0.3);
+        bottom: 5px;
+        color: #FFF;
+        font-size: 18px;
+        font-family: "微软雅黑", Helvetica, Tahoma, Arial, SimSun, Heiti, "黑体", sans-serif;
+        height: 30px;
+        left: 0;
+        bottom: 0;
+        line-height: 30px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        z-index: 100;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.download_app {
+  width: 500px;
+  margin: 0 auto; }
+  .download_app p {
+    padding-top: 80px;
+    color: #FFF;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; }
+  .download_app .title {
+    position: absolute;
+    top: 44px;
+    right: 53px; }
+    .download_app .title .item {
+      color: #ffffff;
+      padding: 13px; }
+    .download_app .title .active {
+      color: #cccccc; }
+  .download_app .download_logo {
+    height: 170px;
+    background: url("../../../../../images/device.png") center no-repeat;
+    overflow: hidden;
+    width: 300px;
+    margin: 20px auto; }
+
+/*# sourceMappingURL=index.css.map */

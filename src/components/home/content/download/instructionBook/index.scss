@@ -1,0 +1,13 @@
+.book {
+  .book-item {
+    height: 50px;
+    width: 200px;
+    background: url("../../../../../images/lockBook.jpg") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .book-item:hover {
+    background: url("../../../../../images/lockBook2.png") no-repeat center;
+    background-size: 100%;
+  }
+}

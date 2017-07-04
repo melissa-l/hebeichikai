@@ -1,0 +1,57 @@
+.app-container {
+  margin-top: 50px;
+  width: 100%;
+  font-family: "微软雅黑", Arial, "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  .app-panel {
+    width: 1000px;
+    margin: 0 auto;
+    .title {
+      border-bottom: 1px solid #d5d5d5;
+      height: 40px;
+      line-height: 40px;
+      span {
+        display: inline-block;
+        width: 200px;
+        border-bottom: 1px solid #00a0e9;
+      }
+    }
+    .app-link {
+      width: 900px;
+      margin: 0 auto;
+      height: 100px;
+      margin-top: 30px;
+      .client {
+        .client-item {
+          width: 150px;
+          height: 150px;
+          background: #cccccc;
+          margin-right: 70px;
+          float: left;
+          cursor: pointer;
+        }
+        .client-item-1 {
+          background: url("../../../../../images/app.png") no-repeat center;
+          background-position: 0 0;
+        }
+        .client-item-2 {
+          background: url("../../../../../images/app.png") no-repeat center;
+          background-position: 0 -153px;
+        }
+        .client-item-3 {
+          background: url("../../../../../images/scan.png") no-repeat center;
+        }
+
+        .client-item-1:hover{
+          background: url("../../../../../images/app.png") no-repeat center;
+          background-position: -153px 0;
+        }
+
+        .client-item-2:hover {
+          background: url("../../../../../images/app.png") no-repeat center;
+          background-position: -153px -153px;
+        }
+
+      }
+    }
+  }
+}

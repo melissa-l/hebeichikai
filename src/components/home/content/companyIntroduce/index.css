@@ -1,0 +1,53 @@
+.company-introduce-wrapper .company-introduce-banner {
+  width: 100%;
+  height: 450px;
+  background: url("../../../../images/aboutUsBanner.jpg") no-repeat center; }
+.company-introduce-wrapper .company-introduce-content {
+  width: 100%; }
+  .company-introduce-wrapper .company-introduce-content .sub-introduce {
+    height: 540px; }
+    .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner {
+      width: 1200px;
+      margin: 0 auto;
+      height: 100%; }
+      .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .left-logo {
+        float: left;
+        background: url("../../../../images/logo/ckeyname.jpg");
+        background-size: 100%;
+        width: 29.16667%;
+        height: 64.8148%;
+        border-radius: 100%;
+        margin-top: 95px; }
+      .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .right-introduce, .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .left-introduce {
+        width: 55.83333%;
+        min-height: 42.6%;
+        margin-top: 154.5px;
+        float: right; }
+        .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .right-introduce h2, .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .left-introduce h2 {
+          height: 20.4545%;
+          color: #23a6d2;
+          font-size: 32px;
+          font-weight: 400;
+          margin: 0;
+          margin-bottom: 20px; }
+        .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .right-introduce p, .company-introduce-wrapper .company-introduce-content .sub-introduce .sub-introduce-inner .left-introduce p {
+          margin: 0;
+          min-height: 64.4%;
+          font-size: 16px;
+          color: #000;
+          line-height: 35px; }
+  .company-introduce-wrapper .company-introduce-content .sub-introduce:last-child {
+    background: #f3f3f3; }
+    .company-introduce-wrapper .company-introduce-content .sub-introduce:last-child .left-introduce {
+      float: left;
+      margin-top: 119.5px; }
+    .company-introduce-wrapper .company-introduce-content .sub-introduce:last-child .right-logo {
+      float: right;
+      background: url("../../../../images/logo/logo.png");
+      background-size: 100%;
+      width: 29.16667%;
+      height: 64.8148%;
+      border-radius: 100%;
+      margin-top: 95px; }
+
+/*# sourceMappingURL=index.css.map */

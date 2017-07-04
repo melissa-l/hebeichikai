@@ -1,0 +1,38 @@
+.versionBanner-wrapper {
+  width: 100%;
+  min-width: 1000px;
+  height: 40px;
+  border-top: 1px solid #f2f2f2;
+  margin-top: -20px;
+  background: #fff;
+  margin-bottom: 20px;
+  .versionBanner {
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    li {
+      list-style: none;
+      text-align: left;
+      width: 49px;
+      line-height: 40px;
+      height: 40px;
+      float: left;
+      a {
+        text-decoration: none;
+        color: #666;
+        font-size:19px;
+      }
+      a.has-left{
+        padding-right: 10px;
+        border-right: 1px solid #666;
+      }
+      a:hover {
+        color: #00a9e9;
+      }
+      a.active {
+        color: #00a9e9;
+      }
+    }
+  }
+}

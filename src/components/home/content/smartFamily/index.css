@@ -1,0 +1,198 @@
+.smartFamily-wrapper .banner img {
+  width: 100%;
+  height: 350px; }
+@media all and (min-width: 1200px) {
+  .smartFamily-wrapper .banner img {
+    width: 100%;
+    height: 600px; } }
+.smartFamily-wrapper .smartFamily-content {
+  width: 100%; }
+  .smartFamily-wrapper .smartFamily-content .inner {
+    width: 1200px;
+    min-height: 1000px;
+    position: relative;
+    margin: 0 auto; }
+    .smartFamily-wrapper .smartFamily-content .inner .app {
+      background: url("../../../../images/bannerBottom/smartFamily/APP.png") no-repeat;
+      height: 400px;
+      width: 246px;
+      position: absolute;
+      top: 45px;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+      margin: auto; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive {
+      transform: translate3d(0, -20px, 0);
+      -webkit-transform: translate3d(0, -20px, 0); }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .bottom-line-wrapper {
+      opacity: 1; }
+      .smartFamily-wrapper .smartFamily-content .inner .appActive .bottom-line-wrapper .bottom-line-1 {
+        animation: BottomLineAnimation 1s ease-in-out;
+        -webkit-animation: BottomLineAnimation 1s ease-in-out;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards; }
+      .smartFamily-wrapper .smartFamily-content .inner .appActive .bottom-line-wrapper .bottom-line-arrow {
+        display: block;
+        width: 65px;
+        height: 30px;
+        margin: 0 auto;
+        background: url("../../../../images/bannerBottom/smartFamily/arrow_bottom.png") no-repeat center;
+        background-size: 100%; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .airTv-1 {
+      animation: AirAndTVShow 1s ease-in-out;
+      -webkit-animation: AirAndTVShow 1s ease-in-out;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .left-line-wrapper .left-line-1 {
+      animation: LeftLineAnimation 1s ease-in-out 0.4s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .right-line-wrapper .right-line-1 {
+      animation: RightLineAnimation 1s ease-in-out 0.4s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .line-common-2 {
+      animation: ArrowShow 0.4s ease-in-out 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+      .smartFamily-wrapper .smartFamily-content .inner .appActive .line-common-2 .top-bottom-line-1 {
+        animation: TopBottomLineAnimation 1s ease-in-out 1.4s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .lighting {
+      animation: FadeIn 1s ease-in-out 1.5s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .appActive .curtain {
+      animation: FadeIn 1s ease-in-out 1.5s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards; }
+    .smartFamily-wrapper .smartFamily-content .inner .lighting {
+      background: url("../../../../images/bannerBottom/smartFamily/lamplight.png") no-repeat;
+      width: 194px;
+      height: 302px;
+      position: absolute;
+      top: 655px;
+      opacity: 0; }
+    .smartFamily-wrapper .smartFamily-content .inner .curtain {
+      background: url("../../../../images/bannerBottom/smartFamily/curtain.png") no-repeat;
+      width: 192px;
+      height: 300px;
+      position: absolute;
+      right: 0;
+      top: 655px;
+      opacity: 0; }
+    .smartFamily-wrapper .smartFamily-content .inner .airTv {
+      background: url("../../../../images/bannerBottom/smartFamily/AirandTV.png") no-repeat;
+      width: 286px;
+      height: 301px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 598px;
+      opacity: 0; }
+    .smartFamily-wrapper .smartFamily-content .inner .bottom-line-wrapper {
+      position: absolute;
+      width: 70px;
+      top: 445px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      opacity: 0; }
+    .smartFamily-wrapper .smartFamily-content .inner .bottom-line {
+      display: block;
+      margin: 0 auto;
+      width: 5px;
+      background-color: #ccc; }
+    .smartFamily-wrapper .smartFamily-content .inner .left-line-wrapper {
+      position: absolute;
+      height: 5px;
+      left: 82px;
+      top: 248px;
+      width: 385px;
+      overflow: hidden; }
+      .smartFamily-wrapper .smartFamily-content .inner .left-line-wrapper .left-line {
+        display: block;
+        height: 5px;
+        width: 360px;
+        background: #ccc;
+        margin-left: 385px; }
+    .smartFamily-wrapper .smartFamily-content .inner .right-line-wrapper {
+      position: absolute;
+      height: 5px;
+      right: 82px;
+      top: 248px;
+      width: 385px;
+      overflow: hidden; }
+      .smartFamily-wrapper .smartFamily-content .inner .right-line-wrapper .right-line {
+        display: block;
+        height: 5px;
+        width: 360px;
+        background: #ccc;
+        margin-left: -385px; }
+    .smartFamily-wrapper .smartFamily-content .inner .line-common-2 {
+      position: absolute;
+      top: 253px;
+      width: 55px;
+      height: 365px;
+      margin: 0 auto;
+      opacity: 0; }
+      .smartFamily-wrapper .smartFamily-content .inner .line-common-2 .right-bottom-line {
+        margin: 0 auto; }
+      .smartFamily-wrapper .smartFamily-content .inner .line-common-2 .top-bottom-line {
+        display: block;
+        width: 5px;
+        margin: 0 auto;
+        background: #ccc; }
+      .smartFamily-wrapper .smartFamily-content .inner .line-common-2 .top-bottom-line-arrow {
+        width: 50px;
+        height: 30px;
+        margin: 0 auto;
+        display: block;
+        background: #ccc;
+        background: url("../../../../images/bannerBottom/smartFamily/arrow_bottom.png") no-repeat center;
+        background-size: 100%; }
+    .smartFamily-wrapper .smartFamily-content .inner .left-bottom-line-wrapper {
+      left: 82px; }
+    .smartFamily-wrapper .smartFamily-content .inner .right-bottom-line-wrapper {
+      right: 82px; }
+
+@keyframes BottomLineAnimation {
+  from {
+    height: 0; }
+  to {
+    height: 120px; } }
+@keyframes AirAndTVShow {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes LeftLineAnimation {
+  from {
+    transform: translate3d(0, 0, 0); }
+  to {
+    transform: translate3d(-360px, 0, 0); } }
+@keyframes RightLineAnimation {
+  from {
+    transform: translate3d(0, 0, 0); }
+  to {
+    transform: translate3d(385px, 0, 0); } }
+@keyframes TopBottomLineAnimation {
+  from {
+    height: 0; }
+  to {
+    height: 365px; } }
+@keyframes ArrowShow {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes FadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=index.css.map */

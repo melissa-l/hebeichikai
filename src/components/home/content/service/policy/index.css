@@ -1,0 +1,36 @@
+.policy-container .big-title {
+  font-size: 30px;
+  padding: 40px;
+  text-align: center; }
+.policy-container dd {
+  margin: 5px auto; }
+.policy-container .blank {
+  padding-left: 18px; }
+.policy-container table {
+  border: 1px solid #969fa8;
+  font-size: 15px;
+  max-width: 1024px;
+  min-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center; }
+  .policy-container table tr {
+    margin: 25px 40px; }
+  .policy-container table th {
+    border: 1px solid #969fa8;
+    color: #222;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: middle; }
+    .policy-container table th strong {
+      font-weight: 600; }
+  .policy-container table tbody tr td {
+    border: 1px solid #969fa8;
+    color: #222;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,79 @@
+.footer {
+  box-shadow: inset 0 2px 1px #FFF;
+  color: #757575;
+  font: 15px/20px, 'Microsoft YaHei', 'SimSun';
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  min-width: 1200px;
+  width: 100%;
+  background: #2d312f;
+  .copyright {
+    width: 100%;
+    margin: 20px auto 0;
+    text-align: center;
+    padding-bottom: 20px;
+    p {
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+  }
+  .foot-container {
+    padding: 30px 0 10px;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    .footer-item {
+      margin-top: 10px;
+      width: 25%;
+      float: left;
+      .title {
+        color: #00a0e9;
+        margin: 0 0 5px;
+      }
+      .title-content {
+        margin-top: -13px;
+      }
+      a {
+        display: inline-block;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #00a0e9;
+      }
+      p {
+        position: absolute;
+        right: 213px;
+        top: 65px;
+        color: #ffffff;
+        b {
+          display: block;
+          margin-top: 20px;
+          font-size: 27px;
+        }
+      }
+      .weixin {
+        width: 160px;
+        text-align: center;
+        float: right;
+        padding-top: 20px;
+        img {
+          height: 100px;
+          margin-bottom: 8px;
+        }
+        b {
+          font-size: 14px;
+          color: #ffffff;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

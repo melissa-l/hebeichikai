@@ -1,0 +1,281 @@
+.smartFamily-wrapper {
+  .banner {
+    img {
+      width: 100%;
+      height: 350px;
+    }
+    @media all and (min-width: 1200px) {
+      img {
+        width: 100%;
+        height: 600px;
+      }
+    }
+  }
+  .smartFamily-content {
+    width: 100%;
+    .inner {
+      width: 1200px;
+      min-height: 1000px;
+      position: relative;
+      margin: 0 auto;
+      .app {
+        background: url("../../../../images/bannerBottom/smartFamily/APP.png") no-repeat;
+        height: 400px;
+        width: 246px;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        margin: auto;
+      }
+
+      .appActive {
+        transform: translate3d(0, -20px, 0);
+        -webkit-transform: translate3d(0, -20px, 0);
+      }
+
+      .appActive .bottom-line-wrapper {
+        opacity: 1;
+        .bottom-line-1 {
+          animation: BottomLineAnimation 1s ease-in-out;
+          -webkit-animation: BottomLineAnimation 1s ease-in-out;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+        }
+
+        .bottom-line-arrow {
+          display: block;
+          width: 65px;
+          height: 30px;
+          margin: 0 auto;
+          background: url("../../../../images/bannerBottom/smartFamily/arrow_bottom.png") no-repeat center;
+          background-size: 100%;
+        }
+      }
+
+      .appActive .airTv-1 {
+        animation: AirAndTVShow 1s ease-in-out;
+        -webkit-animation: AirAndTVShow 1s ease-in-out;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .appActive .left-line-wrapper {
+        .left-line-1 {
+          animation: LeftLineAnimation 1s ease-in-out 0.4s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+        }
+      }
+
+      .appActive .right-line-wrapper {
+        .right-line-1 {
+          animation: RightLineAnimation 1s ease-in-out 0.4s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+        }
+      }
+
+      .appActive .line-common-2 {
+        animation: ArrowShow 0.4s ease-in-out 1s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        .top-bottom-line-1 {
+          animation: TopBottomLineAnimation 1s ease-in-out 1.4s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+        }
+      }
+
+      .appActive .lighting {
+        animation: FadeIn 1s ease-in-out 1.5s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .appActive .curtain {
+        animation: FadeIn 1s ease-in-out 1.5s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+      }
+
+      .lighting {
+        background: url("../../../../images/bannerBottom/smartFamily/lamplight.png") no-repeat;
+        width: 194px;
+        height: 302px;
+        position: absolute;
+        top: 655px;
+        opacity: 0;
+      }
+      .curtain {
+        background: url("../../../../images/bannerBottom/smartFamily/curtain.png") no-repeat;
+        width: 192px;
+        height: 300px;
+        position: absolute;
+        right: 0;
+        top: 655px;
+        opacity: 0;
+      }
+
+      .airTv {
+        background: url("../../../../images/bannerBottom/smartFamily/AirandTV.png") no-repeat;
+        width: 286px;
+        height: 301px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 598px;
+        opacity: 0;
+      }
+
+      .bottom-line-wrapper {
+        position: absolute;
+        width: 70px;
+        top: 445px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        opacity: 0;
+      }
+
+      .bottom-line {
+        display: block;
+        margin: 0 auto;
+        width: 5px;
+        background-color: #ccc;
+      }
+
+      .left-line-wrapper {
+        position: absolute;
+        height: 5px;
+        left: 82px;
+        top: 248px;
+        width: 385px;
+        overflow: hidden;
+        .left-line {
+          display: block;
+          height: 5px;
+          width: 360px;
+          background: #ccc;
+          margin-left: 385px;
+        }
+
+      }
+
+      .right-line-wrapper {
+        position: absolute;
+        height: 5px;
+        right: 82px;
+        top: 248px;
+        width: 385px;
+        overflow: hidden;
+        .right-line {
+          display: block;
+          height: 5px;
+          width: 360px;
+          background: #ccc;
+          margin-left: -385px;
+        }
+      }
+
+      .line-common-2 {
+        position: absolute;
+        top: 253px;
+        width: 55px;
+        height: 365px;
+        margin: 0 auto;
+        opacity: 0;
+        .right-bottom-line {
+          margin: 0 auto;
+        }
+        .top-bottom-line {
+          display: block;
+          width: 5px;
+          margin: 0 auto;
+          background: #ccc;
+        }
+        .top-bottom-line-arrow {
+          width: 50px;
+          height: 30px;
+          margin: 0 auto;
+          display: block;
+          background: #ccc;
+          background: url("../../../../images/bannerBottom/smartFamily/arrow_bottom.png") no-repeat center;
+          background-size: 100%;
+        }
+      }
+      .left-bottom-line-wrapper {
+        left: 82px;
+      }
+
+      .right-bottom-line-wrapper {
+        right: 82px;
+      }
+    }
+  }
+}
+
+@keyframes BottomLineAnimation {
+  from {
+    height: 0;
+  }
+  to {
+    height: 120px;
+  }
+}
+
+@keyframes AirAndTVShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes LeftLineAnimation {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-360px, 0, 0);
+  }
+}
+
+@keyframes RightLineAnimation {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(385px, 0, 0);
+  }
+}
+
+@keyframes TopBottomLineAnimation {
+  from {
+    height: 0;
+  }
+  to {
+    height: 365px;
+  }
+}
+
+@keyframes ArrowShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

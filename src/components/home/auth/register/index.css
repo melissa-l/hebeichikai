@@ -1,0 +1,59 @@
+.login-header {
+  margin-bottom: 30px; }
+
+.login-content {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center; }
+  .login-content img {
+    width: 200px; }
+
+.register-form button {
+  width: 94%;
+  color: white;
+  background-color: #4c72d3;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  height: 40px; }
+.register-form input {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cecece;
+  border-image: initial;
+  height: 40px; }
+.register-form .massage {
+  width: 55%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cecece;
+  border-image: initial;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-left: 8px; }
+.register-form .mgsbtn {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cecece;
+  border-image: initial;
+  height: 42px;
+  font-size: 14px;
+  line-height: 42px; }
+.register-form .sign_up {
+  margin-bottom: 40px; }
+
+/*# sourceMappingURL=index.css.map */

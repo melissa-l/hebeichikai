@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.bottom_tab {
+  width: 1200px;
+  margin: 0 auto; }
+  .bottom_tab .tablist {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none; }
+    .bottom_tab .tablist li {
+      float: left;
+      margin: 2% 1.5% 0;
+      width: 30%;
+      height: 229px; }
+      .bottom_tab .tablist li .item {
+        position: relative;
+        height: 100%; }
+        .bottom_tab .tablist li .item img {
+          height: 100%;
+          width: 100%; }
+      .bottom_tab .tablist li .bottom-caption {
+        background: rgba(0, 0, 0, 0.3);
+        bottom: 5px;
+        color: #FFF;
+        font-size: 18px;
+        font-family: "微软雅黑", Helvetica, Tahoma, Arial, SimSun, Heiti, "黑体", sans-serif;
+        height: 30px;
+        left: 0;
+        bottom: 0;
+        line-height: 30px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        z-index: 100; }
+
+/*# sourceMappingURL=index.css.map */

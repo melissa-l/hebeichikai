@@ -1,0 +1,44 @@
+.policy-container {
+  .big-title {
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+  }
+  dd{
+    margin: 5px auto;
+  }
+  .blank{
+    padding-left: 18px;
+  }
+  table {
+    border: 1px solid #969fa8;
+    font-size: 15px;
+    max-width: 1024px;
+    min-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    tr{
+      margin: 25px 40px;
+    }
+    th{
+      border: 1px solid #969fa8;
+      color: #222;
+      padding: 5px 10px;
+      text-align: center;
+      font-weight: normal;
+      vertical-align: middle;
+      strong{
+        font-weight: 600;
+      }
+    }
+    tbody tr td{
+      border: 1px solid #969fa8;
+      color: #222;
+      padding: 5px 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}

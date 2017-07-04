@@ -1,0 +1,401 @@
+.animat-app-active {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  .animat-app-active-inner {
+    height: 240px;
+    float: left;
+    width: 400px;
+    opacity: 0;
+    img {
+      height: 240px;
+    }
+  }
+  .lock {
+    text-align: right;
+  }
+  .brake {
+    text-align: center;
+  }
+}
+
+.animat-app {
+  width: 400px;
+  margin: -150px auto 0;
+  text-align: center;
+  i {
+    position: absolute;
+  }
+}
+
+.management {
+  width: 1200px;
+  margin: 160px auto 0;
+  .management-inner {
+    width: 400px;
+    float: left;
+    img {
+      height: 366px;
+    }
+  }
+  .light {
+    opacity: 0;
+    margin-top: 145px;
+    img {
+      height: 240px;
+    }
+  }
+  .people {
+    opacity: 0;
+    text-align: right;
+    margin-top: 145px;
+    img {
+      height: 240px;
+    }
+  }
+  .property-management {
+    text-align: center;
+  }
+}
+
+.inner {
+  height: 236px;
+  width: 100%;
+  clear: both;
+}
+
+.safe {
+  opacity: 0;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  img {
+    height: 240px;
+  }
+}
+
+.smart-animat {
+  .animat-app-active {
+    .animat-app-active-inner {
+      animation: ArrowShow 1s ease-in-out 2s;
+      -webkit-animation: ArrowShow 1s ease-in-out 2s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+    }
+  }
+  .animat-app {
+    animation: AppAnimat 1s ease-in-out;
+    -webkit-animation: AppAnimat 1s ease-in-out;
+    margin-top: 190px;
+    position: relative;
+    i {
+      position: absolute;
+    }
+    .app-top-line {
+      left: 198px;
+      bottom: 407px;
+      background: #bbbbbb;
+      width: 5px;
+      animation: AppTopLineAnimat 1s ease-in-out 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      .app-top-line-arrow {
+        opacity: 0;
+        animation: ArrowShow 0.1s ease-in-out 1s;
+        -webkit-animation: ArrowShow 0.1s ease-in-out 1s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        display: block;
+        width: 65px;
+        height: 30px;
+        background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottomtop.png") no-repeat center;
+        background-size: 100%;
+        position: absolute;
+        top: -29px;
+        left: -29px;
+      }
+    }
+    .app-right-line {
+      left: 335px;
+      bottom: 204px;
+      background: #bbbbbb;
+      height: 5px;
+      animation: AppRightLineAnimat 1s ease-in-out 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+    }
+    .app-left-top-line {
+      left: -274px;
+      bottom: 204px;
+      background: #bbbbbb;
+      width: 5px;
+      animation: AppLeftTopLineAnimat 1s ease-in-out 2s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      .app-left-top-line-arrow {
+        opacity: 0;
+        animation: ArrowShow 0.1s ease-in-out 2s;
+        -webkit-animation: ArrowShow 0.1s ease-in-out 2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        display: block;
+        width: 65px;
+        height: 30px;
+        background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottomtop.png") no-repeat center;
+        background-size: 100%;
+        position: absolute;
+        top: -33px;
+        left: -29px;
+      }
+    }
+    .app-right-top-line {
+      right: -274px;
+      bottom: 204px;
+      background: #bbbbbb;
+      width: 5px;
+      animation: AppRightTopLineAnimat 1s ease-in-out 2s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      .app-right-top-line-arrow {
+        opacity: 0;
+        animation: ArrowShow 0.1s ease-in-out 2s;
+        -webkit-animation: ArrowShow 0.1s ease-in-out 2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        display: block;
+        width: 65px;
+        height: 30px;
+        background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottomtop.png") no-repeat center;
+        background-size: 100%;
+        position: absolute;
+        top: -33px;
+        left: -29px;
+      }
+    }
+    .app-left-line {
+      right: 335px;
+      bottom: 204px;
+      background: #bbbbbb;
+      height: 5px;
+      animation: AppLeftLineAnimat 1s ease-in-out 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+    }
+    .app-bottom-line {
+      top: 414px;
+      right: 197px;
+      background: #bbbbbb;
+      width: 5px;
+      animation: AppBottomLineAnimat 1s ease-in-out 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      i {
+        display: block;
+        width: 65px;
+        height: 30px;
+        position: absolute;
+      }
+      .app-bottom-line-arrow {
+        background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottom.png") no-repeat center;
+        background-size: 100%;
+        bottom: -33px;
+        left: -29px;
+        opacity: 0;
+        animation: ArrowShow 1s ease-in-out 1.3s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+      }
+      .app-bottom-top-line-arrow {
+        background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottomtop.png") no-repeat center;
+        background-size: 100%;
+        top: -10px;
+        left: -29px;
+        opacity: 0;
+        animation: ArrowShow 1s ease-in-out 1.3s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+      }
+    }
+  }
+  .management {
+    .property-management {
+      position: relative;
+      i {
+        position: absolute;
+      }
+      .management-bottom-line {
+        top: 381px;
+        right: 197px;
+        background: #bbbbbb;
+        width: 5px;
+        animation: ManagementBottomLineAnimat 1s ease-in-out 2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        .management-bottom-line-arrow {
+          opacity: 0;
+          animation: ArrowShow 0.1s ease-in-out 2s;
+          -webkit-animation: ArrowShow 0.1s ease-in-out 2s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+          display: block;
+          width: 65px;
+          height: 30px;
+          background: url("../../../../images/bannerBottom/smartCommunity/arrow_bottom.png") no-repeat center;
+          background-size: 100%;
+          position: absolute;
+          bottom: -33px;
+          left: -29px;
+        }
+      }
+      .management-left-line {
+        right: 365px;
+        bottom: 158px;
+        background: #bbbbbb;
+        height: 5px;
+        animation: ManagementLeftLineAnimat 1s ease-in-out 2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        .management-left-line-arrow {
+          opacity: 0;
+          animation: ArrowShow 0.1s ease-in-out 2s;
+          -webkit-animation: ArrowShow 0.1s ease-in-out 2s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+          display: block;
+          width: 65px;
+          height: 65px;
+          background: url("../../../../images/bannerBottom/smartCommunity/arrow_left.png") no-repeat center;
+          background-size: 100%;
+          position: absolute;
+          bottom: -30px;
+          left: -48px;
+        }
+      }
+      .management-right-line {
+        left: 365px;
+        bottom: 158px;
+        background: #bbbbbb;
+        height: 5px;
+        animation: ManagementLeftLineAnimat 1s ease-in-out 2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        .management-right-line-arrow {
+          opacity: 0;
+          animation: ArrowShow 0.1s ease-in-out 2s;
+          -webkit-animation: ArrowShow 0.1s ease-in-out 2s;
+          animation-fill-mode: forwards;
+          -webkit-animation-fill-mode: forwards;
+          display: block;
+          width: 65px;
+          height: 65px;
+          background: url("../../../../images/bannerBottom/smartCommunity/arrow_right.png") no-repeat center;
+          background-size: 100%;
+          position: absolute;
+          bottom: -30px;
+          right: -48px;
+        }
+      }
+    }
+    .light {
+      margin-top: 125px;
+      opacity: 1;
+    }
+    .people {
+      margin-top: 125px;
+      opacity: 1;
+    }
+  }
+  .safe {
+    opacity: 1;
+  }
+}
+
+@keyframes ArrowShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes AppTopLineAnimat {
+  from {
+    height: 0;
+  }
+  to {
+    height: 130px;
+  }
+}
+
+@keyframes AppRightLineAnimat {
+  from {
+    width: 0;
+  }
+  to {
+    width: 334px;
+  }
+}
+
+@keyframes AppLeftTopLineAnimat {
+  from {
+    height: 0;
+  }
+  to {
+    height: 330px;
+  }
+}
+
+@keyframes ManagementLeftLineAnimat {
+  from {
+    width: 0;
+  }
+  to {
+    width: 160px;
+  }
+}
+
+@keyframes AppRightTopLineAnimat {
+  from {
+    height: 0;
+  }
+  to {
+    height: 330px;
+  }
+}
+
+@keyframes AppLeftLineAnimat {
+  from {
+    width: 0;
+  }
+  to {
+    width: 334px;
+  }
+}
+
+@keyframes AppBottomLineAnimat {
+  from {
+    height: 0;
+  }
+  to {
+    height: 110px;
+  }
+}
+
+@keyframes ManagementBottomLineAnimat {
+  from {
+    height: 0;
+  }
+  to {
+    height: 170px;
+  }
+}
+
+@keyframes AppAnimat {
+  from {
+    margin-top: -150px;
+  }
+  to {
+    margin-top: 190px;
+  }
+}
